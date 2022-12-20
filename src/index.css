@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cart-head td {
+  width: 200px;
+  border:1px solid #ccc;
+  text-align: center;
+  background-color: blue;
+  padding: 10px;
+  color: #ccc;
+}
+.cart-list td {
+  width: 200px;
+  border:1px solid #ccc;
+  padding: 10px;
+}
+.price-total {
+  border: 1px solid #ccc;
+
+}
+.price-total h5 {
+  font-size: 16px;
+  padding: 4px;
+}
+.price-total h4 {
+  font-size: 19px;
+  padding-left: 4px;
+  padding-top: 10px;
+}

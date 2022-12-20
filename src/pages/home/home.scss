@@ -1,0 +1,83 @@
+// @import 'color';
+$primary-color : #102950;
+$second-color : #0c2b5e;
+$third-color : #eb0000;
+$fourth-color :#fff;
+$fifth-color:#ffbe00;
+
+// h2 {
+//     color: $third-color;
+// }
+.blog-section-one {
+    background-color: $primary-color;
+    .blog-section-first {
+        .blog-one-img {
+            margin-left: 30px;
+            margin-top: 30px;
+            position: relative;
+            img {
+                position: relative;
+                z-index: 3;
+                border-radius: 5px;
+            }
+            &::after {
+                content: "";
+                background: $fifth-color;
+                position: absolute;
+                left: -30px;
+                top: -30px;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+                border-radius: 5px;
+            }
+        }
+        .blog-two-content {
+            margin-left: 50px;
+            .post-meta-single {
+                margin-bottom: 40px;
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    li {
+                        display: inline-block;
+                        margin: 0 10px;
+                        font-size: 14px;
+                        .tag-base {
+                            font-size: 20px;
+                            height: 45px;
+                            line-height: 50px;
+                            padding: 0 20px;
+                            border-radius: 5px;
+                            background-color:$third-color;
+                            text-decoration: none;
+                            color: $fourth-color;
+                        }
+                    }
+                }
+            }
+            h2 {
+                color: $fourth-color;
+            }
+            p {
+                color: $fourth-color;
+                margin-top: 30px;
+            }
+            .read-more {
+                color: $fourth-color;
+                background-color: $second-color;
+                margin-top: 30px;
+            }
+            .cart-more {
+                color: $fourth-color;
+                background-color: $second-color;
+                margin-top: 30px;
+                margin-left:30px;
+            }
+        }
+    }
+    
+}
+
+
+ 
